@@ -1,0 +1,23 @@
+{
+	"ts-node": {
+		"files": true
+	},
+	"compilerOptions": {
+		"target": "ES2022",
+		"strict": true,
+		"module": "CommonJS",
+		"allowJs": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"moduleResolution": "Node",
+		"outDir": "build",
+		"declaration": true,
+		"typeRoots": [
+      "@types",
+      "./node_modules/@types",
+    ]
+	},
+	"include": ["src/**/*.ts"]
+}
